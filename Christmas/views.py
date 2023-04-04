@@ -10,7 +10,7 @@ import datetime
 
 
 def yaas(request):
-     now = datetime.datetime
+     now = datetime.datetime.now()
      return render (request, "index.html",{
          "now": now. month == 12 and now.day == 25
 
